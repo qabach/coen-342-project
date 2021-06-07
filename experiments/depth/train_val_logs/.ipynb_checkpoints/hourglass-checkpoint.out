@@ -1,0 +1,245 @@
+Using CUDA: True
+===================================================
+Using HourglassNetwork
+Min focal = 250
+===================================================
+num_loader_workers: 2
+Prev_iter: 0
+Using Local Back Projection Loss v2
+	==> Align prediction to gt.
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-199 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: False
+=====================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Validation version of the OASISDataset
+		-It never perform data augmentation
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-99 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: False
+=====================================================
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-199 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: False
+=====================================================
+==============epoch =  0
+1 Total_loss: 37991.6
+2 Total_loss: 5165.69
+3 Total_loss: 9524.03
+4 Total_loss: 6533.4
+5 Total_loss: 7366.85
+6 Total_loss: 1713.51
+7 Total_loss: 18552.9
+8 Total_loss: 3335.22
+9 Total_loss: 2139.95
+10 Total_loss: 10971.9
+11 Total_loss: 2146.72
+12 Total_loss: 6121.46
+13 Total_loss: 15203.3
+14 Total_loss: 4779.51
+15 Total_loss: 3303.43
+16 Total_loss: 4220.66
+17 Total_loss: 652.087
+==============epoch =  1
+18 Total_loss: 1439.39
+19 Total_loss: 5773
+20 Total_loss: 1924.84
+21 Total_loss: 8498.44
+22 Total_loss: 6305.67
+23 Total_loss: 2495.72
+24 Total_loss: 1969.25
+25 Total_loss: 5874.31
+26 Total_loss: 15177.3
+27 Total_loss: 3385.93
+28 Total_loss: 9657.9
+29 Total_loss: 5467.37
+30 Total_loss: 15389.7
+31 Total_loss: 4496.56
+32 Total_loss: 3845.27
+33 Total_loss: 4180.94
+34 Total_loss: 3680.78
+==============epoch =  2
+35 Total_loss: 16690.5
+36 Total_loss: 7066.83
+37 Total_loss: 3245.89
+38 Total_loss: 1934.04
+39 Total_loss: 5522.29
+40 Total_loss: 3069.38
+41 Total_loss: 1604.03
+42 Total_loss: 4005.15
+43 Total_loss: 4949.89
+44 Total_loss: 3818.23
+45 Total_loss: 880.789
+46 Total_loss: 4782.62
+47 Total_loss: 2906.82
+48 Total_loss: 10711.7
+49 Total_loss: 12063.2
+50 Total_loss: 3256.46
+51 Total_loss: 13313
+==============epoch =  3
+52 Total_loss: 14497.4
+53 Total_loss: 15453.8
+54 Total_loss: 16106.9
+55 Total_loss: 3545.23
+56 Total_loss: 6438.25
+57 Total_loss: 2152.57
+58 Total_loss: 5942.25
+59 Total_loss: 2864.51
+60 Total_loss: 4240.97
+61 Total_loss: 2493.5
+62 Total_loss: 3199.08
+63 Total_loss: 3749.93
+64 Total_loss: 1330.24
+65 Total_loss: 4456.95
+66 Total_loss: 2568.91
+67 Total_loss: 3981.79
+68 Total_loss: 4157.29
+==============epoch =  4
+69 Total_loss: 2526.56
+70 Total_loss: 11873.7
+71 Total_loss: 2670.69
+72 Total_loss: 2417.55
+73 Total_loss: 7596.08
+74 Total_loss: 5668.79
+75 Total_loss: 2238.93
+76 Total_loss: 15482.6
+77 Total_loss: 2485.26
+78 Total_loss: 2464.44
+79 Total_loss: 2900.37
+80 Total_loss: 2430.22
+81 Total_loss: 1949.31
+82 Total_loss: 5586.61
+83 Total_loss: 12441
+84 Total_loss: 3440.69
+85 Total_loss: 4897.12
+==============epoch =  5
+86 Total_loss: 682.903
+87 Total_loss: 9276.79
+88 Total_loss: 482.807
+89 Total_loss: 4982.23
+90 Total_loss: 4170.87
+91 Total_loss: 4798.95
+92 Total_loss: 4506.82
+93 Total_loss: 4488.88
+94 Total_loss: 4536.75
+95 Total_loss: 7262.45
+96 Total_loss: 2224.46
+97 Total_loss: 1484.38
+98 Total_loss: 16004.9
+99 Total_loss: 7452.58
+100 Total_loss: 6264.89
+101 Total_loss: 4274.58
+102 Total_loss: 831.955
+==============epoch =  6
+103 Total_loss: 1851.85
+104 Total_loss: 1582.68
+105 Total_loss: 18140.2
+106 Total_loss: 9825.31
+107 Total_loss: 5099.41
+108 Total_loss: 3742.67
+109 Total_loss: 3151.1
+110 Total_loss: 1655.34
+111 Total_loss: 6133.08
+112 Total_loss: 6646.88
+113 Total_loss: 2418.92
+114 Total_loss: 2482.04
+115 Total_loss: 8759.07
+116 Total_loss: 2911.16
+117 Total_loss: 1933.16
+118 Total_loss: 1533.77
+119 Total_loss: 4175.04
+==============epoch =  7
+120 Total_loss: 4089.79
+121 Total_loss: 15738.7
+122 Total_loss: 2989.36
+123 Total_loss: 2471.38
+124 Total_loss: 2254.07
+125 Total_loss: 9055.13
+126 Total_loss: 9551.77
+127 Total_loss: 2190.36
+128 Total_loss: 4594.03
+129 Total_loss: 1879.41
+130 Total_loss: 3699.12
+131 Total_loss: 1639.09
+132 Total_loss: 2674.65
+133 Total_loss: 1232.98
+134 Total_loss: 3214.06
+135 Total_loss: 11252.7
+136 Total_loss: 2711.18
+==============epoch =  8
+137 Total_loss: 2209.31
+138 Total_loss: 4381.76
+139 Total_loss: 4317.82
+140 Total_loss: 5289.32
+141 Total_loss: 3007.76
+142 Total_loss: 2873.28
+143 Total_loss: 1229.41
+144 Total_loss: 9051.75
+145 Total_loss: 14027.8
+146 Total_loss: 1903.28
+147 Total_loss: 2130.3
+148 Total_loss: 1850.97
+149 Total_loss: 2982
+150 Total_loss: 14091.5
+151 Total_loss: 1425.17
+152 Total_loss: 6905.43
+153 Total_loss: 4530.88
+==============epoch =  9
+154 Total_loss: 7019.99
+155 Total_loss: 2556.35
+156 Total_loss: 877.326
+157 Total_loss: 1688.13
+158 Total_loss: 2137.57
+159 Total_loss: 16506.7
+160 Total_loss: 3593.7
+161 Total_loss: 3192.44
+162 Total_loss: 3206.3
+163 Total_loss: 7882.43
+164 Total_loss: 977.509
+165 Total_loss: 1169.64
+166 Total_loss: 2559.85
+167 Total_loss: 15440.7
+168 Total_loss: 2315.7
+169 Total_loss: 4410.05
+170 Total_loss: 1926.04
+==============epoch =  10
+171 Total_loss: 2241.07
+172 Total_loss: 1999.2
+173 Total_loss: 3311.42
+174 Total_loss: 5254.03
+175 Total_loss: 1742.28
+176 Total_loss: 1368.54
+177 Total_loss: 2959.19
+178 Total_loss: 3292.57
+179 Total_loss: 1333.14
+180 Total_loss: 17776.8
+181 Total_loss: 2796.93
+182 Total_loss: 1745.26
+183 Total_loss: 1112.82
+184 Total_loss: 2689.77
+185 Total_loss: 2948.25
+186 Total_loss: 837.631
+187 Total_loss: 2365.72
+==============epoch =  11
+188 Total_loss: 2147.71
+189 Total_loss: 2072.85
+190 Total_loss: 1635.73
+191 Total_loss: 15986.7
+192 Total_loss: 2485.5
+193 Total_loss: 2033.06
+194 Total_loss: 4581.41
+195 Total_loss: 7237.11
+196 Total_loss: 2427.56
+197 Total_loss: 4772.95
+198 Total_loss: 2541.87
+199 Total_loss: 2844.54
+End of train.py

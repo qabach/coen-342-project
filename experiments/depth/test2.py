@@ -9,6 +9,8 @@ import valid2
 from utils import save_obj, load_obj, makedir_if_not_exist
 
 from HourglassNetwork import HourglassNetwork
+from DeconvoNetwork import DeconvoNetwork
+from UNet import UNET
 from ReDWebNet import ReDWebNet_resnet50
 from OASISDataset2 import OASISDataset, OASISDatasetVal, OASISDatasetDIWVal, OASIS_collate_fn
 from ReDWebNetReluMin import ReDWebNetReluMin, ReDWebNetReluMin_raw
@@ -42,12 +44,19 @@ if __name__ == '__main__':
 			os.makedirs('./visualize')
 
 	if args.pred_path is None:
-		training_args = load_obj(os.path.join(os.path.dirname(os.path.dirname(args.model_file)), 'args.pkl'))	
+		print(args.model_file)
+		print(os.path.dirname(args.model_file))
+		print(os.path.dirname(os.path.dirname(args.model_file)))
+# 		print(os.path.join(os.path.dirname(os.path.dirname(args.model_file))))
+# 		training_args = load_obj(os.path.join(os.path.dirname(os.path.dirname(args.model_file)), 'args.pkl'))	
+		training_args = load_obj(os.path.join(os.path.dirname(args.model_file), 'args.pkl'))	
 		print( "Training args:", training_args	)
 		print( "#######################################################################\n\n\n")
 
 		b_resnet_prep = {
 						"NIPS":False, 
+                        "UNet":False,
+                        "DeConv":False,
 						"ReDWebNetReluMin": True,
 						"ReDWebNetReluFixed": True,
 						"ReDWebNetReluMin_raw": True,
@@ -69,6 +78,8 @@ if __name__ == '__main__':
 
 	if args.pred_path is None:
 		NetworkType = {
+                        "UNet":UNET,
+                        "DeConv":DeconvoNetwork,
 						"NIPS":HourglassNetwork, 
 						"ReDWebNetReluMin": ReDWebNetReluMin,
 						"ReDWebNetReluMin_raw": ReDWebNetReluMin_raw,

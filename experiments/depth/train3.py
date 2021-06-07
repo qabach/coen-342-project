@@ -20,7 +20,6 @@ from torch.autograd import Variable
 
 from HourglassNetwork import HourglassNetwork
 from DeconvoNetwork import DeconvoNetwork
-from UNet import UNET
 from ReDWebNetReluMin import ReDWebNetReluMin, ReDWebNetReluMin_raw
 from LocalBackprojLoss2 import LocalBackprojLoss2
 from OASISDataset2 import OASISDataset, OASISDatasetVal, OASIS_collate_fn
@@ -80,8 +79,7 @@ def train(dataset_name, model_name, loss_name,
 		  model_save_interval, model_eval_interval, exp_name):
 
 	NetworkType = {
-				   	"UNet":UNET,
-                    "DeConv":DeconvoNetwork,
+				   	"DeConv":DeconvoNetwork,
 				   	"NIPS":HourglassNetwork, 
 				   	"ReDWebNetReluMin": ReDWebNetReluMin,
 				   	"ReDWebNetReluMin_raw": ReDWebNetReluMin_raw,
@@ -273,8 +271,8 @@ def train(dataset_name, model_name, loss_name,
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	# parser.add_argument('--network_name', '-nn', default=config.DEFAULT_NETWORK_NAME)
-	parser.add_argument('--train_file', '-t', default='')	# should be absolute path
-	parser.add_argument('--valid_file', '-v', default='')
+	parser.add_argument('--train_file', '-t', default='/WAVE/projects/COEN-342-Sp21/teams/qbach/OASIS/OASIS_trainval/OASIS_train.csv')	# should be absolute path
+	parser.add_argument('--valid_file', '-v', default='/WAVE/projects/COEN-342-Sp21/teams/qbach/OASIS/OASIS_trainval/OASIS_val.csv')
 	parser.add_argument('--dataset_name', '-dn', default='OASISDataset') 
 	parser.add_argument('--model_name', '-mn', default='NIPS') #
 	parser.add_argument('--loss_name', default='BackprojLoss') # 
@@ -308,7 +306,6 @@ if __name__ == '__main__':
 	train(**args_dict)
 
 	print ("End of train.py")
-
 
 
 

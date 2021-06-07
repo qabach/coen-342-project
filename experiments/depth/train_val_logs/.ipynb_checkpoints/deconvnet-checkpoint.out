@@ -1,0 +1,145 @@
+Using CUDA: True
+===================================================
+Using ReDWebNetReluMin Raw, min is 250.0 * 1
+	No Pretraining!!!!
+===================================================
+	ResidualConv
+	ResidualConv
+	ResidualConv
+	ResidualConv
+	ResidualConv
+	ResidualConv
+num_loader_workers: 2
+Prev_iter: 0
+Using Local Back Projection Loss v2
+	==> Align prediction to gt.
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-199 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: True
+=====================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Validation version of the OASISDataset
+		-It never perform data augmentation
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-99 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: True
+=====================================================
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-199 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: True
+=====================================================
+==============epoch =  0
+1 Total_loss: 30539.5
+2 Total_loss: 11638.9
+3 Total_loss: 13216.6
+4 Total_loss: 8204.69
+5 Total_loss: 4611.54
+6 Total_loss: 4675.14
+7 Total_loss: 21220.8
+8 Total_loss: 4809.47
+9 Total_loss: 12332.1
+10 Total_loss: 4081.57
+11 Total_loss: 4984.16
+12 Total_loss: 9155.06
+13 Total_loss: 5638.23
+14 Total_loss: 6303.25
+15 Total_loss: 3482.41
+16 Total_loss: 3715.17
+17 Total_loss: 6778.78
+==============epoch =  1
+18 Total_loss: 9160.4
+19 Total_loss: 3645.94
+20 Total_loss: 2177.36
+21 Total_loss: 16976.4
+22 Total_loss: 3864.18
+23 Total_loss: 2450.17
+24 Total_loss: 3556.55
+25 Total_loss: 3999.75
+26 Total_loss: 16109.7
+27 Total_loss: 5032.76
+28 Total_loss: 4250.99
+29 Total_loss: 2129.78
+30 Total_loss: 2023.08
+31 Total_loss: 2192.26
+32 Total_loss: 4238.14
+33 Total_loss: 4881.28
+34 Total_loss: 1862.75
+==============epoch =  2
+35 Total_loss: 3064.92
+36 Total_loss: 4421.95
+37 Total_loss: 15010.9
+38 Total_loss: 2735.87
+39 Total_loss: 1542.65
+40 Total_loss: 1677.82
+41 Total_loss: 3296.48
+42 Total_loss: 3391.61
+43 Total_loss: 4837.17
+44 Total_loss: 2594.98
+45 Total_loss: 2211.48
+46 Total_loss: 3492.64
+47 Total_loss: 3009.14
+48 Total_loss: 12479.3
+49 Total_loss: 6680.69
+50 Total_loss: 5369.31
+51 Total_loss: 3189.52
+==============epoch =  3
+52 Total_loss: 2497.23
+53 Total_loss: 3039.37
+54 Total_loss: 1908.53
+55 Total_loss: 16718
+56 Total_loss: 2134.05
+57 Total_loss: 3394.79
+58 Total_loss: 2047.83
+59 Total_loss: 1958.45
+60 Total_loss: 2005.86
+61 Total_loss: 12645.2
+62 Total_loss: 3083.84
+63 Total_loss: 1573.58
+64 Total_loss: 3639.22
+65 Total_loss: 6481.72
+66 Total_loss: 5575.88
+67 Total_loss: 2256.85
+68 Total_loss: 3835.76
+==============epoch =  4
+69 Total_loss: 1161.03
+70 Total_loss: 9415.57
+71 Total_loss: 3667.75
+72 Total_loss: 1508.95
+73 Total_loss: 3646.14
+74 Total_loss: 3534.29
+75 Total_loss: 2200.49
+76 Total_loss: 1456.47
+77 Total_loss: 7474.27
+78 Total_loss: 2298.4
+79 Total_loss: 5372.47
+80 Total_loss: 1033.96
+81 Total_loss: 3070.92
+82 Total_loss: 3539.87
+83 Total_loss: 14609.1
+84 Total_loss: 1398.11
+85 Total_loss: 4940.19
+==============epoch =  5
+86 Total_loss: 2452.13
+87 Total_loss: 7547.18
+88 Total_loss: 1419.21
+89 Total_loss: 2446.21
+90 Total_loss: 3254.62
+91 Total_loss: 1644.96
+92 Total_loss: 1537.62
+93 Total_loss: 3913.3
+94 Total_loss: 1941.6
+95 Total_loss: 4408.98
+96 Total_loss: 2672.54
+97 Total_loss: 1997
+98 Total_loss: 15943.3
+99 Total_loss: 1932.84
+End of train.py

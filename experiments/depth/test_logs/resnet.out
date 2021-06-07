@@ -1,0 +1,354 @@
+#######################################################################
+Testing args: Namespace(DIW_rel_depth=False, b_keep_neg=False, fixed_focal_length=None, model_file='exp/ReDWebNetReluMin_raw_retrained/best_sivmodel_iter_10.bin', num_iters=200, output_file=None, plane=False, pred_path=None, test_file='OASIS/OASIS_trainval/val_100_tail.csv', verbal=False, vis_depth=False)
+exp/ReDWebNetReluMin_raw_retrained/best_sivmodel_iter_10.bin
+exp/ReDWebNetReluMin_raw_retrained
+exp
+Training args: {'train_file': 'OASIS/OASIS_trainval/train_200.csv', 'valid_file': 'OASIS/OASIS_trainval/val_100.csv', 'dataset_name': 'OASISDataset', 'model_name': 'ReDWebNetReluMin_raw', 'loss_name': 'LocalBackprojLoss2', 'num_iters': 200, 'num_epoches': 100000, 'batch_size': 12, 'model_save_interval': 2000, 'model_eval_interval': 3000, 'learning_rate': 1e-05, 'n_GPUs': 1, 'num_loader_workers': 2, 'pretrained_file': None, 'b_oppi': False, 'b_sort': False, 'b_data_aug': False, 'exp_name': 'ReDWebNetReluMin_raw_retrained'}
+#######################################################################
+
+
+
+=====> b_resnet_prep: True
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Validation version of the OASISDataset
+		-It never perform data augmentation
+=====================================================
+Using ThreeSIW Dataset... With scaling of training focal length!
+	-(width, height): (320, 240)
+	-99 samples
+	-Data augmentation: False
+	-Resnet data preprocessing: True
+=====================================================
+Testing on OASIS/OASIS_trainval/val_100_tail.csv
+===================================================
+Using ReDWebNetReluMin Raw, min is 250.0 * 1
+	No Pretraining!!!!
+===================================================
+	ResidualConv
+	ResidualConv
+	ResidualConv
+	ResidualConv
+	ResidualConv
+	ResidualConv
+#######################################################################
+Evaluating... Scale predicted focal lenght!
+	b_eval_rel_depth_only = False
+#######################################################################
+
+
+
+Error reading OASIS/OASIS_trainval/relative_depth/297612_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/279347_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/271333_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/231343_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/263642_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/234927_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/204265_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/180595_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/218258_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/263110_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/146270_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/241760_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/124772_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/208003_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/219647_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/75799_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/221451_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/268697_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/124803_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/170837_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/195268_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/201583_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/247431_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/104064_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/206324_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/233324_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/289363_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/245791_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/262070_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/114665_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/202711_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/291366_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/279283_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/84262_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/83994_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/284880_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/131340_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/252200_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/251985_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/237486_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/277831_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/159094_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/227292_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/233761_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/285331_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/254972_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/282185_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/245944_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/155512_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/293165_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/197807_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/235796_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/93871_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/240242_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/288267_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/87932_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/263270_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/133065_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/263599_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/293789_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/189163_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/200764_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/161614_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/246134_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/243696_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/203840_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/116321_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/271077_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/200879_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/229863_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/161357_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/176345_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/201722_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/296721_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/119267_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/283177_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/285677_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/161100_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/131613_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/182679_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/253753_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/259492_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/225180_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/152726_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/234103_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/231817_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/117404_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/289938_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/262783_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/290891_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/185196_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/248929_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/274002_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/99353_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/181288_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/149025_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/270730_ALI.csv
+Error reading OASIS/OASIS_trainval/relative_depth/201087_DT.csv
+Error reading OASIS/OASIS_trainval/relative_depth/121258_DT.csv
+1
+Normalize GT no order!	 no order lsiv_metric: 3893.56
+2
+Normalize GT no order!	 no order lsiv_metric: 1161.73
+3
+Normalize GT no order!	 no order lsiv_metric: 477.77
+4
+Normalize GT no order!	 no order lsiv_metric: 1708.85
+5
+Normalize GT no order!	 no order lsiv_metric: 4501.61
+6
+Normalize GT no order!	 no order lsiv_metric: 134707
+7
+Normalize GT no order!	 no order lsiv_metric: 8323.88
+8
+Normalize GT no order!	 no order lsiv_metric: 833.429
+9
+Normalize GT no order!	 no order lsiv_metric: 4414.81
+10
+Normalize GT no order!	 no order lsiv_metric: 1392.84
+11
+Normalize GT no order!	 no order lsiv_metric: 654.3
+12
+Normalize GT no order!	 no order lsiv_metric: 2250.58
+13
+Normalize GT no order!	 no order lsiv_metric: 1037.68
+14
+Normalize GT no order!	 no order lsiv_metric: 1623.46
+15
+Normalize GT no order!	 no order lsiv_metric: 4451.08
+16
+Normalize GT no order!	 no order lsiv_metric: 1981.02
+17
+Normalize GT no order!	 no order lsiv_metric: 1902.6
+18
+Normalize GT no order!	 no order lsiv_metric: 1809.97
+19
+Normalize GT no order!	 no order lsiv_metric: 138.127
+20
+Surface 3 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 543419
+21
+Normalize GT no order!	 no order lsiv_metric: 8088.32
+22
+Normalize GT no order!	 no order lsiv_metric: 5974.13
+23
+Normalize GT no order!	 no order lsiv_metric: 2116.68
+24
+Normalize GT no order!	 no order lsiv_metric: 32724.3
+25
+Normalize GT no order!	 no order lsiv_metric: 35939
+26
+Normalize GT no order!	 no order lsiv_metric: 443.987
+27
+Normalize GT no order!	 no order lsiv_metric: 5438.72
+28
+Normalize GT no order!	 no order lsiv_metric: 52509.9
+29
+Normalize GT no order!	 no order lsiv_metric: 9217.11
+30
+Normalize GT no order!	 no order lsiv_metric: 6935.86
+31
+Normalize GT no order!	 no order lsiv_metric: 1450.96
+32
+Normalize GT no order!	 no order lsiv_metric: 934.925
+33
+Surface 3 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 16338.6
+34
+Normalize GT no order!	 no order lsiv_metric: 2011.05
+35
+Normalize GT no order!	 no order lsiv_metric: 27361.7
+36
+Normalize GT no order!	 no order lsiv_metric: 1764.47
+37
+Normalize GT no order!	 no order lsiv_metric: 578.299
+38
+Normalize GT no order!	 no order lsiv_metric: 2320.05
+39
+Normalize GT no order!	 no order lsiv_metric: 4815.13
+40
+Normalize GT no order!	 no order lsiv_metric: 4588.31
+41
+Normalize GT no order!	 no order lsiv_metric: 7554.42
+42
+Surface 2 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 193203
+43
+Surface 4 has less than 10 pixels
+Surface 5 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 13527.2
+44
+Normalize GT no order!	 no order lsiv_metric: 105904
+45
+Normalize GT no order!	 no order lsiv_metric: 39816.7
+46
+Normalize GT no order!	 no order lsiv_metric: 539.353
+47
+Normalize GT no order!	 no order lsiv_metric: 3915.18
+48
+Normalize GT no order!	 no order lsiv_metric: 2897.79
+49
+Normalize GT no order!	 no order lsiv_metric: 8360.94
+50
+Normalize GT no order!	 no order lsiv_metric: 15452.4
+51
+Normalize GT no order!	 no order lsiv_metric: 8618.14
+52
+Surface 4 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 3746.12
+53
+Normalize GT no order!	 no order lsiv_metric: 14611.1
+54
+Normalize GT no order!	 no order lsiv_metric: 110802
+55
+Normalize GT no order!	 no order lsiv_metric: 601.333
+56
+Normalize GT no order!	 no order lsiv_metric: 31150.9
+57
+Normalize GT no order!	 no order lsiv_metric: 33181
+58
+Normalize GT no order!	 no order lsiv_metric: 335.821
+59
+Normalize GT no order!	 no order lsiv_metric: 348.345
+60
+Normalize GT no order!	 no order lsiv_metric: 6727.63
+61
+Normalize GT no order!	 no order lsiv_metric: 29231.9
+62
+Normalize GT no order!	 no order lsiv_metric: 49839.5
+63
+Normalize GT no order!	 no order lsiv_metric: 494.351
+64
+Normalize GT no order!	 no order lsiv_metric: 2063.89
+65
+Normalize GT no order!	 no order lsiv_metric: 2036.73
+66
+Normalize GT no order!	 no order lsiv_metric: 528.685
+67
+Normalize GT no order!	 no order lsiv_metric: 2674.99
+68
+Normalize GT no order!	 no order lsiv_metric: 16861.8
+69
+Normalize GT no order!	 no order lsiv_metric: 80745.2
+70
+Normalize GT no order!	 no order lsiv_metric: 2187.37
+71
+Normalize GT no order!	 no order lsiv_metric: 502.11
+72
+Normalize GT no order!	 no order lsiv_metric: 15577.3
+73
+Normalize GT no order!	 no order lsiv_metric: 1764.3
+74
+Normalize GT no order!	 no order lsiv_metric: 9110.58
+75
+Normalize GT no order!	 no order lsiv_metric: 235198
+76
+Normalize GT no order!	 no order lsiv_metric: 14908.6
+77
+Normalize GT no order!	 no order lsiv_metric: 303.053
+78
+Normalize GT no order!	 no order lsiv_metric: 506.86
+79
+Normalize GT no order!	 no order lsiv_metric: 88099.5
+80
+Normalize GT no order!	 no order lsiv_metric: 16352.1
+81
+Normalize GT no order!	 no order lsiv_metric: 46073.7
+82
+Normalize GT no order!	 no order lsiv_metric: 8381.39
+83
+Normalize GT no order!	 no order lsiv_metric: 320.03
+84
+Normalize GT no order!	 no order lsiv_metric: 5433.08
+85
+Normalize GT no order!	 no order lsiv_metric: 33605.2
+86
+Normalize GT no order!	 no order lsiv_metric: 291.86
+87
+Normalize GT no order!	 no order lsiv_metric: 1889.43
+88
+Normalize GT no order!	 no order lsiv_metric: 884.058
+89
+Normalize GT no order!	 no order lsiv_metric: 742.184
+90
+Normalize GT no order!	 no order lsiv_metric: 42990.7
+91
+Normalize GT no order!	 no order lsiv_metric: 849.437
+92
+Normalize GT no order!	 no order lsiv_metric: 10675.2
+93
+Surface 1 has less than 10 pixels
+Surface 5 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 1408.14
+94
+Normalize GT no order!	 no order lsiv_metric: 4206.51
+95
+Surface 2 has less than 10 pixels
+Surface 4 has less than 10 pixels
+Normalize GT no order!	 no order lsiv_metric: 831.401
+96
+Normalize GT no order!	 no order lsiv_metric: 6911.42
+97
+Normalize GT no order!	 no order lsiv_metric: 1346.12
+98
+Normalize GT no order!	 no order lsiv_metric: 4883.79
+99
+Normalize GT no order!	 no order lsiv_metric: 20969.5
+99 samples are evaluated.
+
+metric_error_gt_no_order LSIV Metric: 0.685467
+Thresh	WKDR	WKDR_neq	WKDR_eq
+0.00	100.00%	100.00%	100.00%
+Best:
+0.00	100.00%	100.00%	100.00%
+

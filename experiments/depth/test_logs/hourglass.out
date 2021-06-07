@@ -1,0 +1,2 @@
+#######################################################################
+Testing args: Namespace(DIW_rel_depth=False, b_keep_neg=False, fixed_focal_length=None, model_file='exp/Hourglass_retrained/best_sivmodel_iter_110.bin', num_iters=200, output_file=None, plane=False, pred_path=None, test_file='OASIS/OASIS_trainval/val_100_tail.csv', verbal=False, vis_depth=False)
