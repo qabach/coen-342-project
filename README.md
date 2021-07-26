@@ -4,6 +4,8 @@
 
 This repository contains the code for the following paper:
 
+    *** Note from Quan Bach: This project is implemented by the authors at Princeton. I only implement the hour-glass like network (convolution and deconvolution network) named         DeConv.py in the experiment folder. ***
+    
     OASIS: A Large-Scale Dataset for Single Image 3D in the Wild,
     Weifeng Chen, Shengyi Qian, David Fan, Noriyuki Kojima, Max Hamilton, Jia Deng
     Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
