@@ -4,7 +4,7 @@
 
 This repository contains the code for the following paper:
 
-    *** Note from Quan Bach: This project is implemented by the authors at Princeton. I only implement the hour-glass like network (convolution and deconvolution network) named         DeConv.py in the experiment folder. ***
+    *** Note from Quan Bach: This project is implemented by the authors at Princeton. I only implement the hour-glass like network (convolution and deconvolution network) named         DeconvoNetwork.py in the experiment/depth directory for the depth estimation only. ***
     
     OASIS: A Large-Scale Dataset for Single Image 3D in the Wild,
     Weifeng Chen, Shengyi Qian, David Fan, Noriyuki Kojima, Max Hamilton, Jia Deng
